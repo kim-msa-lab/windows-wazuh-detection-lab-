@@ -25,6 +25,7 @@ The telemetry pipeline has also been validated from the Windows endpoint through
 <img width="2506" height="1216" alt="wazuh-sysmon-event-id-1" src="https://github.com/user-attachments/assets/719ec592-e4b6-44db-8e16-0278deafbeca" />
 
 Current Architecture:
+
 <img width="396" height="390" alt="image" src="https://github.com/user-attachments/assets/64d8d05f-d3b8-441b-9c53-de391bc06a59" />
 
 Objective
