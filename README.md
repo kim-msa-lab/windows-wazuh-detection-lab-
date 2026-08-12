@@ -44,8 +44,8 @@ Detailed validation and supporting evidence can be found in [Pipeline Validation
        ┌───────────┐     ┌─────────────┐   ┌─────────────┐
        │   DC01    │     │ WIN11-CL01  │   │   WAZUH01   │
        │ Windows   │     │ Windows 11  │   │   Debian    │
-       │ Server    │     │             │   │   Wazuh     │
-       │ AD DS     │     │ Sysmon      │   │   Manager   │
+       │ Server    │     │ Sysmon      │   │   Wazuh     │
+       │ AD DS     │     │             │   │   Manager   │
        └─────┬─────┘     └──────┬──────┘   │  Dashboard  │
              │                  │          └──────┬──────┘
              │                  │                 │
