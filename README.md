@@ -25,7 +25,25 @@ The telemetry pipeline has also been validated from the Windows endpoint through
 <img width="2506" height="1216" alt="wazuh-sysmon-event-id-1" src="https://github.com/user-attachments/assets/719ec592-e4b6-44db-8e16-0278deafbeca" />
 
 Current Architecture:
-
+            ┌─────────────────────┐ 
+            │ Proxmox             │ 
+            │ Dell Latitude 5490  │ 
+            │                     │ 
+            └──────────┬──────────┘ 
+                       │ 
+      ┌────────────────┼─────────────────┐ 
+      │                │                 │ 
+      ▼                ▼                 ▼ 
+┌───────────┐   ┌─────────────┐ ┌─────────────┐ 
+│ DC01      │   │ WIN11-CL01  │ │ WAZUH01     │ 
+│ Windows   │   │ Windows 11  │ │ Debian      │ 
+│ Server    │   │ Sysmon      │ │ Wazuh       │ 
+│ AD DS     │   │             │ │ Manager     │ 
+└─────┬─────┘   └──────┬──────┘ │ Dashboard   │ 
+      │                │        └──────┬──────┘
+      │                │               │ 
+└─────┬─────┘    └─────┬─────┘   └─────┬─────┘
+      └────────── Wazuh Agents ────────┘
 <img width="470" height="364" alt="image" src="https://github.com/user-attachments/assets/b77d16ec-df9d-4c69-9e06-4f4f358d3d27" />
 
 Objective
