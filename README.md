@@ -27,7 +27,7 @@ The telemetry pipeline has also been validated from the Windows endpoint through
 Current Architecture:
 <br><img width="396" height="390" alt="image" src="https://github.com/user-attachments/assets/64d8d05f-d3b8-441b-9c53-de391bc06a59" />
 
-Objective
+Objective:<br>
 The initial objective is to build a functioning Windows security telemetry pipeline before introducing adversary simulation.
 The intended pipeline is:
 
