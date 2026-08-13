@@ -50,9 +50,9 @@ Detailed validation and supporting evidence can be found in [Pipeline Validation
              │                  │                 │
              └───────────  Wazuh Agents ──────────┘
 
-```text
-## Telemetry Pipeline
 
+## Telemetry Pipeline
+```text
 The current telemetry flow is:
 
 Windows Activity
