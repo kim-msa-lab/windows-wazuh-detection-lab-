@@ -65,7 +65,8 @@ Wazuh Manager
        ↓
 Wazuh Dashboard
        ↓
-Detection & Investigation``text
+Detection & Investigation
+```
 
 
 The pipeline has been validated using a controlled `ipconfig /all`
