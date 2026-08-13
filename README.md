@@ -1,4 +1,3 @@
-# windows-wazuh-detection-lab-
 # Windows Detection & Incident Response Lab
 
 A personal cybersecurity lab built to develop practical skills in security monitoring, detection engineering, incident investigation, and DFIR.
