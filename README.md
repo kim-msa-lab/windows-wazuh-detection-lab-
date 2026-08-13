@@ -55,17 +55,17 @@ Detailed validation and supporting evidence can be found in [Pipeline Validation
 
 The current telemetry flow is:
 
-Windows Activity<br>
-       ↓<br>
-Windows Event Logs / Sysmon<br>
-       ↓<br>
-Wazuh Agent<br>
-       ↓<br>
-Wazuh Manager<br>
-       ↓<br>
-Wazuh Dashboard<br>
-       ↓<br>
-Detection & Investigation<br>...
+Windows Activity
+       ↓
+Windows Event Logs / Sysmon
+       ↓
+Wazuh Agent
+       ↓
+Wazuh Manager
+       ↓
+Wazuh Dashboard
+       ↓
+Detection & Investigation...
 
 
 The pipeline has been validated using a controlled `ipconfig /all`
