@@ -75,4 +75,3 @@ successfully received by Wazuh.
 
 See [Pipeline Validation](validation/03-pipeline-validation.md) for
 the detailed test and supporting evidence.
-               `    
