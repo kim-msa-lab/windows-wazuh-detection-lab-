@@ -50,6 +50,7 @@ Detailed validation and supporting evidence can be found in [Pipeline Validation
              │                  │                 │
              └───────────  Wazuh Agents ──────────┘
 
+<text>
 ## Telemetry Pipeline
 
 The current telemetry flow is:
@@ -65,6 +66,7 @@ Wazuh Manager<br>
 Wazuh Dashboard<br>
        ↓<br>
 Detection & Investigation<br>
+</text>
 
 The pipeline has been validated using a controlled `ipconfig /all`
 execution. Sysmon Event ID 1 was generated on `WIN11-CL01` and
