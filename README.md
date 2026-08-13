@@ -50,7 +50,6 @@ Detailed validation and supporting evidence can be found in [Pipeline Validation
              │                  │          └──────┬──────┘
              │                  │                 │
              └───────────  Wazuh Agents ──────────┘`
-``
 
 ## Telemetry Pipeline
 
